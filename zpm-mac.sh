@@ -31,5 +31,4 @@ downloaded_file="$package_name.sh"
 curl -L "$download_url" -o "$downloaded_file"  # The -L option handles redirects
 chmod +x "$downloaded_file"
 sudo ln -s "$(pwd)/$downloaded_file" /usr/local/bin/$package_name"
-echo "Installed $1"
 exit 0
