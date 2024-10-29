@@ -29,6 +29,4 @@ echo "Built URL: $url"  # Print the constructed URL to stdout (or use it in a va
 download_url="$url"
 downloaded_file="$package_name.sh"
 curl -L "$download_url" -o "$downloaded_file"  # The -L option handles redirects
-chmod +x "$downloaded_file"
-sudo ln -s "$(pwd)/$downloaded_file" /usr/local/bin/$package_name"
 exit 0
