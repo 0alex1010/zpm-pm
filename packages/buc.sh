@@ -4,9 +4,13 @@
 DOWNLOAD_DIR="$HOME/buc_zpm"
 
 # info
+clear
+echo "Zenith Package Manger (zpm)"
+echo "_________________________________"
 echo "NOTE: The zpm version of BUC is differnt from the normal version. If you find any bugs report it to the zpm github. Not the BUC one."
 echo "This message will dissmiss in 10 seconds."
 sleep 10
+clear
 
 # Main loop
 while true; do
