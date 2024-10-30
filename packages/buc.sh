@@ -2,13 +2,13 @@
 
 # Clear the screen
 cd ~
-mkdir BUC
+mkdir buc_zpm
 clear
-cd ~/BUC
+cd ~/buc_zpm
 
 
 # Set the directory for the downloaded files
-DOWNLOAD_DIR="$HOME/BUC"
+DOWNLOAD_DIR="$HOME/buc_zpm"
 
 
     # Create the directory if it doesn't exist
