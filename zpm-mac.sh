@@ -11,7 +11,6 @@ url="https://raw.githubusercontent.com/0alex1010/zpm-pm/refs/heads/main/packages
 # Check if the URL exists (optional, but recommended)
 if curl --output /dev/null --silent --head --fail "$url"; then
   echo "$1 exists."
-  chmod +x "$1.sh"
 else
   echo "Error: $1 does not exist."
   exit 1
@@ -23,7 +22,8 @@ fi
 
 
 #  Alternatively, if you intend to build the URL and use it later in the script:
-echo "Built URL: $url"  # Print the constructed URL to stdout (or use it in a variable)
+echo "Built URL: $url"
+chmod +x "$1.sh"# Print the constructed URL to stdout (or use it in a variable)
 
 
 # Example of using the URL in a variable for downloading:
