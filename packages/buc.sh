@@ -3,6 +3,9 @@
 # Set the directory for the downloaded files
 DOWNLOAD_DIR="$HOME/buc_zpm"
 
+# info
+echo "NOTE: The zpm version of BUC is differnt from the normal version. If you find any bugs report it to the zpm github. Not the BUC one."
+
 # Main loop
 while true; do
 
