@@ -12,8 +12,6 @@ echo "This message will dissmiss in 10 seconds."
 sleep 10
 clear
 
-# Main loop
-while true; do
 
     # Create the directory if it doesn't exist
     mkdir -p "$DOWNLOAD_DIR"
@@ -30,7 +28,9 @@ while true; do
     # Create a menu to open the files
     clear
     open "$DOWNLOAD_DIR/welcome.html" 
-
+    # Main loop
+while true; do
+    clear
     echo "Choose a version to open:"
     echo "1. Version 1.html"
     echo "2. Version 2.html"
