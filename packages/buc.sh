@@ -8,7 +8,7 @@ cd ~/buc_zpm
 
 
 # Set the directory for the downloaded files
-DOWNLOAD_DIR="$HOME/buc_zpm"
+DOWNLOAD_DIR="~/buc_zpm"
 
 
     # Create the directory if it doesn't exist
