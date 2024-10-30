@@ -11,6 +11,7 @@ url="https://raw.githubusercontent.com/0alex1010/zpm-pm/refs/heads/main/packages
 # Check if the URL exists (optional, but recommended)
 if curl --output /dev/null --silent --head --fail "$url"; then
   echo "$1 exists."
+  chmod +x "$1.sh"
 else
   echo "Error: $1 does not exist."
   exit 1
