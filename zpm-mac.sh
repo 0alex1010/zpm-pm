@@ -22,8 +22,8 @@ fi
 
 
 #  Alternatively, if you intend to build the URL and use it later in the script:
-echo "Built URL: $url"
-chmod +x "$1.sh"# Print the constructed URL to stdout (or use it in a variable)
+echo "Built URL: $url" # Print the constructed URL to stdout (or use it in a variable)
+chmod +x "$1.sh"
 
 
 # Example of using the URL in a variable for downloading:
