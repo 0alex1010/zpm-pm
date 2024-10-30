@@ -44,7 +44,7 @@ DOWNLOAD_DIR="$HOME/buc_zpm"
         4) open "$DOWNLOAD_DIR/Version_3.1.html";;
         5) open "$DOWNLOAD_DIR/version_1.2.html";;
         6) echo "Exiting..."; 
-            rm index.html && rm Version_2.html && rm Version_3.html && rm Version_3.1.html && rm version_1.2.html && rm welcome.html && cd ~ && rm -rf BUC
+            rm index.html && rm Version_2.html && rm Version_3.html && rm Version_3.1.html && rm version_1.2.html && rm welcome.html && cd ~ && rm -rf buc_zpm
             exit 0;;
         *) echo "Invalid choice."; exit 1;;
     esac
